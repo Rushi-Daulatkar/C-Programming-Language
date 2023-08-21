@@ -1,0 +1,11 @@
+// This projects Contains Basics of C programming Language 
+//This project Contains Code To print Hello World On The Output Screen 
+
+//The code is As Follows
+
+#include <stdio.h>         //it will include the stdio. h file into your source code, which contains information for all input and output functions
+#include <iostream.h>      //#include<stdio. h>  it will include the stdio. h file into your source code, which contains information for all input and output functions 
+int main() {
+    printf("Hello world");
+    return 0;             //  return 0 means that the program will execute successfully and it will return nothing 
+}
