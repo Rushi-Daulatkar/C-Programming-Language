@@ -1,0 +1,12 @@
+//Hello Welcome 
+//Today's Challenge is To Create a Code That Sums The Number Itself 
+//The Code Works As :-
+//User Will Give An Input Of 5 digit Number ,Then By Implementing Logic Coder will split user inputed number into 5 digits individually 
+//Then Add them together and print it on the output screen as :-
+//printf("In Sum of digit of number %d is %d ",your var nameS );  
+//first %d is for printing of original 5 digit Number 
+//second %d is for printing the sum of 5 Numbers 
+//HINT ==> The number from input will be "12345"
+//         by logic and code coder shall do it like this "1+2+3+4+5"
+//         then add the numbers i.e 1+2+3+4+5 = 15 
+//         the output of the code is "15"
