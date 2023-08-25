@@ -2,6 +2,6 @@
 //In This Challenge you Will be Given a Task of Creating A fully Functional Temperature Converter
 //You must take only Two Varibles in the Code 
 //HINT :- USE "SCANF"and "PRINTF" Functions for Better Code
-//Create a Fully functional Temerature converter that converts Degree Fahrenheit To Degree Celcius
+//Create a Fully functional Temperature converter that converts Degree Fahrenheit To Degree Celsius
 //You Should Put values of Fahrenheit and Geting a output in Celcius Format 
 //In the last, Print The Value of Degree Celcius In Decimal Format on the Output Screen
