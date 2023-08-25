@@ -1,0 +1,32 @@
+// Solution to "Write a C Program to Find the Sum of 5 Digit Number Entered by the User"
+//The Code Is As Follows :
+
+
+#include <stdio.h>                            //header files 
+#include <stdlib.h>                           //header files 
+         
+int main()
+{
+int d1,d2,d3,d4,d5,num,sum,ori;              //declaration of variables
+printf ("In Inter any 5 digit Number: ");  
+scanf("%d",&num);                            //Taking input from the user                          
+ori=num;                                     //saving the  user given input in a variable 
+
+d1=num%10;                                   //logic of program 
+num=num/10;
+
+d2=num%10;                                   //logic of program 
+num=num/10;
+
+d3=num%10;                                   //logic of program 
+num=num/10;
+
+d4=num%10;                                   //logic of program 
+num=num/10;
+
+d5=num%10;
+
+sum = d1 + d2 + d3 + d4 + d5;                  //adding all the five separated numbers   
+
+printf("In Sum of digit of number %d is %d ",ori,sum);  //printing the output on the screen 
+}
