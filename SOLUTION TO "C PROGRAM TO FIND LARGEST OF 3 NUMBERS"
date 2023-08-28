@@ -1,0 +1,34 @@
+####################################################
+//The Code Is As Follows :-
+#include <stdio.h>                                 //Declaring Header Files
+
+void main()                                        //Predefined Function MAIN And VOID as Keyword
+{
+    int a,b,c;                                     //Declaring Three Variable In INT Data Type
+
+    printf("Enter the values of a, b and c \n");
+
+    scanf("%d %d %d",&a,&b,&c);                    //Taking Three Numbers Input From User
+
+    if (a > b)                                     // First IF loop
+    {
+        if (a > c)                                 //Second IF loop in first IF loop
+        {
+            printf("%d is the largest number.",a);
+        }
+        else                                       //ELSE of Second IF loop
+        {
+            printf("%d is the largest number.",c);
+        }
+    }
+    else if (b > c)                                //First ELSE IF loop
+
+        printf("%d is the largest number.",b);
+
+    else                                           //ELSE of First IF loop
+
+        printf("%d is the largest number.",c);
+}                                                 //END OF PROGRAM
+
+
+
