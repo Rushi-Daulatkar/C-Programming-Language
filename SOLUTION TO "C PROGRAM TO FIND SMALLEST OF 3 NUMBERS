@@ -1,0 +1,31 @@
+####################################################
+//The Code Is As Follows :-
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a,b,c,small;                    //Declaring Four Integer Variables
+    printf("Enter three numbers : ");
+    scanf("%d %d %d",&a,&b,&c);         //Taking Four Variables as Input From user
+    if(a<b)                             //if the first number "a" is smaller than second number "b" we will enter IF part
+    {
+        if(b<c)                         //if the second number "b" is smaller than third number "c" we have smallest number as "a" BUT if the conduction is FALSE
+        small = a;                      //then we will enter ELSE part
+        else
+        {
+        if(a<c)                         //If first number is smaller than Third number then smallest number is "a" If the Conduction is FALSE then we will enter ELSE part
+        small = a;
+        else                            //And thus "c" is the smallest number
+        small = c;
+        }
+    }
+        else                            //If the initial IF conduction is FALSE then we will enter This ELSE part
+    {
+        if(b<c)                         //IF the second number "b" is smaller than third number "c" then smallest number is second number "b"
+        small = b;
+        else                            //If the conduction is FALSE then third number "c" is the smallest number
+        small = c;
+    }
+    printf("Smallest number is: %d \n",small); // printing  the output On The Screen
+}                                              //END OF THE PROGRAM
