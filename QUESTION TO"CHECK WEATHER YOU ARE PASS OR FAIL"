@@ -1,0 +1,30 @@
+//Hello and Welcome to New Challenge 
+//In This Challenge The task given to the coder is :-
+
+//Take 5 Numbers Input From User 
+//Find Weather The student Has Passed The Exam Or Has Failed The Exam 
+//Minimum Marks To PASS in EACH subject Is 40 MARKS
+//Each Subject Is Of 100 Marks
+//These 5 Numbers Will be Marks of 5 subjects
+
+
+//If the Student Has Passes The exam 
+//In The Program Coder Must Show The Toatl Marks Of the Student  has Scored in the Exam
+//In The Program Coder Must Show The Toatl Percentage Of the Student has Scored in the Exam
+//Also Greet him By Showing Output With Student's Name Has Passed The Exam
+
+
+
+//If the Student Has Failes The exam 
+//In The Program Coder DOES NOT Show The Toatl Marks Of the Student  has Scored in the Exam
+//In The Program Coder DOES NOT Show The Toatl Percentage Of the Student has Scored in the Exam
+//Also Show Result As STUDENTS NAME and has Failed Exam
+
+
+//HINT:- Use Scanf to take Input From User 
+//HINT:-Use AND operator and scanf operator in the Program 
+
+
+SOLUTION TO THIS QUESTION IS IN THE FILE {SOLUTION TO "CHECK WEATHER YOU ARE PASS OR FAIL"}
+//HOPE YOU WILL SOLVE THIS CHALLENGE 
+//BEST OF LUCK
