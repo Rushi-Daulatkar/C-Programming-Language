@@ -1,0 +1,30 @@
+##############################
+// The Program is As Follows :-
+
+#include<stdio.h>                                        //Declaring Header Files
+#include<math.h>                                         //Declaring Header Files
+
+ int main()       
+{
+    int m1,m2,m3,m4,m5,total;                            //Declaring 5 Int variables and 6TH Variable for Sum of Five Variables
+    float Percentage;                                    //Declaring Float Variable For Student's Percentage
+    char string[25];                                     //Declaring Character Variable For Student's Name
+
+     printf("Enter the name:");                          //Taking Input From user As their NAMES
+     scanf("%[^\n]*c",string);                           //Taking Input From user As their NAMES
+
+    printf("\nEnter marks of 5 Subjects : \n");          //Taking Input From user As their Marks In Each 5 Subjects
+    scanf("%d %d %d %d %d",&m1,&m2,&m3,&m4,&m5);         //Taking Input From user As their Marks In Each 5 Subjects
+
+    if (m1>=40 && m2>=40 && m3>=40 && m4>=40 && m5>=40)  //IF conditional Statement
+    {
+        printf(" \nYou Are Pass %s",string);             //If the student has Passed then This part will run
+
+        total = m1+m2+m3+m4+m5;                          //Calculating Total Marks Of the student
+        printf("\nTotal Marks : %d",total);              //Calculating Total Marks Of the student
+        printf("\nPercentage is : %.2f",total/5.0);      //Calculating TotalPercentage Of the student And Also Implementing logic
+    }else{                                               //If the student has  NOT Passed then This part will run
+        printf("\nYou are Fail %s",string);              //Output Statement Showing That Student Has Failed
+        printf("\n Better Luck Next Time");              //Giving Student Some Inspiration
+    }
+}                                                        //END OF THE PROGRAM
