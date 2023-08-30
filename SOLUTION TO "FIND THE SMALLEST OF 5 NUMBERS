@@ -1,0 +1,25 @@
+#############################
+The Code Is As Follows:-
+
+
+#include<stdio.h>                             //Declaring Header Files
+
+main()                                        //Actual Starting Of Program
+{
+
+int a,b,c,d,e,min;                           //Declaring 6 INT Data Type Variable
+printf("ENTER ANY 5 VALUES :", min);         //Texting Out on Output Screen For Input Of Variables
+scanf("%d %d%d %d %d", &a, &b, &c, &d,&e );  //Taking Input From User
+
+min =a;                                      //Assigning Value To First Variable                                       
+if(b< min)                                   //IF statement 
+{min = b;}                                  
+if(c < min)                                  //IF statement 
+{min = c;}
+if(d < min)                                  //IF statement 
+{min = d;}
+if(e < min)                                  //IF statement 
+{min = e;}
+
+printf("THE MINIMUM NUMBER IS :%d",min);     //Printing Out The Output On The Output Screen 
+}                                            //END OF THE PROGRAM
