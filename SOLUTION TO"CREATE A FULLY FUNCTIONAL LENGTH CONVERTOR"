@@ -1,0 +1,20 @@
+//The Code Is As Follows 
+
+#include <stdio.h>                                      //Declaring Header Files
+
+int main()                                              //Starting Of Main Program
+{
+  float cm,m,km,feet,inch;                              //Declaring of 5 float type variables
+  printf("\n Enter Value in Meters :");                 //Printing Out some String 
+  scanf("%f",&m);                                       //Taking Input From The User                  
+  
+  cm=100*m;                                             //Logic of the Program
+  km=m/1000;                                            //Logic of the Program
+  inch=cm/2.54;                                         //Logic of the Program
+  feet=m/12;                                            //Logic of the Program
+  
+  printf("\n The Value In cm : %.2f",cm);               //Printing out The converted Value of centimeters
+  printf("\n The Value In km : %.2f",km);               //Printing out The converted Value of Kilometers
+  printf("\n The Value In inch : %.2f",inch);           //Printing out The converted Value of Inches
+  printf("\n The Value In feet : %.2f",feet);           //Printing out The converted Value of Feet
+}                                                       //END OF THE PROGRAM
